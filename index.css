@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #232830;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    min-height: fit-content;
+}
+
+.navbar {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0em 5em;
+        font-size: 3vh;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .primary-nav {
+            display: flex;
+            justify-content: flex-end;
+            gap: 2em;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    height: 5em;
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.image {
+    margin: 20px 0;
+}
+
+.hero {
+    text-align: center;
+    h1 {
+        color: #FF7575;
+        font-family: cursive;
+        font-size: 3em;
+        align-items: center;
+    }
+    p {
+        font-size: 1.5em;
+    }
+}
+.horizontal {
+    .secondary-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        gap: 1em;
+        color: #909090;
+        font-family: cursive;
+        cursor: pointer;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    .card-row-1, 
+    .card-row-2, 
+    .card-row-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        justify-content: space-between;
+    }
+    .last {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: white;
+        align-items: space-between;
+        margin: 2em;
+        border-radius: 1.5em;
+        padding: 1em;
+        color: black;
+    }
+    .heading {
+        font-weight: bolder;
+        padding: 1em 0;
+    }
+    
+}
+
+.page {
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1em;
+        list-style: none;
+        font-family: cursive;
+        color: #909090;
+    }
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
